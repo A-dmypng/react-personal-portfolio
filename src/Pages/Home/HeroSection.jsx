@@ -13,7 +13,7 @@ export default function HeroSection() {
                     Skilled web designer and developer with a passion for creating visually appealing and highly functional websites.
                     </p>
                 </div>
-                <button className="btn btn-primary">Get In Touch</button>
+                <a href="mailto:admypung@gmail.com" className="btn btn-primary">Get In Touch</a>
             </div>
             <div className="hero--section--img">
                 <img src="./img/hero-image.webp" alt="Hero Section" />
