@@ -22,9 +22,11 @@ export default function MyPortfolio() {
         <div className="portfolio--section--container">
             {data?.portfolio?.map((item, index) => (
                 <div key={index} className="portfolio--section--card">
+                    <a href={item.link}>
                     <div className="portfolio--section--img">
                         <img src={item.src} alt="Placeholder" />
                     </div>
+                    </a>
                     {/* <div className="portfolio--section--card--content">
                         <div>
                             <h3 className="portfolio--section--title">{item.title}</h3>
