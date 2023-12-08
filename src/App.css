@@ -191,6 +191,9 @@ h3 {
 .navbar--items ul > li > a {
     text-decoration: none;
 }
+.navbar--items ul > li:hover  a {
+  color: #5e3bee;
+}
 
 /* NavBar Content */
 .navbar--content {
@@ -563,6 +566,9 @@ h3 {
     gap: 16px;
     flex-shrink: 0;
     text-decoration: none;
+  }
+  .footer--items ul > li:hover a {
+    color: #5e3bee;
   }
   .divider {
     margin: 20px 0 20px;
