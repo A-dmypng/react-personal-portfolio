@@ -24,7 +24,7 @@ export default function MyPortfolio() {
                 <div key={index} className="portfolio--section--card">
                     <a href={item.link}>
                     <div className="portfolio--section--img">
-                        <img src={item.src} alt="Placeholder" />
+                        <img src={item.link} alt="Placeholder" />
                     </div>
                     </a>
                     {/* <div className="portfolio--section--card--content">

@@ -374,6 +374,7 @@ h3 {
     width: 100%;
     height: 230px;
     overflow: hidden;
+    overflow-y:scroll;
 }
 .portfolio--section--img > img {
     width: 100%;
