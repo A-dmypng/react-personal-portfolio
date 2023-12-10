@@ -2,19 +2,19 @@
     "skills": [
         {
             "id": 1,
-            "src": "./img/product-chain-1.png",
+            "src": "./img/web-design-icon.png",
             "title": "Web Design",
             "description": "Proficient in creating visually appealing and intuitive user interfaces."
         },
         {
             "id": 2,
-            "src": "./img/feather-pen-1.png",
+            "src": "./img/web-development-icon.png",
             "title": "Web Development",
             "description": "Expertise in creating responsive and mobile-friendly WordPress websites."
         },
         {
             "id": 3,
-            "src": "./img/feather-pen-2.png",
+            "src": "./img/web-optimization-icon.png",
             "title": "Web Optimization",
             "description": "Skills in optimizing WordPress websites for speed and performance."
         }

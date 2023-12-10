@@ -305,13 +305,13 @@ h3 {
 }
 .skills--section--img {
     display: flex;
-    padding: 10px;
+    padding-top: 20px;
     justify-content: center;
     align-items: center;
     gap: 10px;
     border-radius: 10px;
-    background: var(--white);
-    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
+    /* background: var(--white);
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1); */
 }
 .skills--section--card--content {
     display: flex;
@@ -816,5 +816,8 @@ h3 {
     .about--section p {
       text-align: center;
   }
+  .skills--section--img {
+    padding-top: 10px;
+}
   }
   /* Responsive Screens Ends*/
