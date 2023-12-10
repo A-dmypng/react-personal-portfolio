@@ -23,112 +23,86 @@
         {
             "id": 1,
             "src": "./img/portfolio_1.jpg",
-            "title": "Ahuse",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "title": "Accounting Solutions",
+            "description": "WordPress | Beaver Builder",
             "link": "/img/portfolio_1.webp"
         },
         {
             "id": 2,
             "src": "./img/portfolio_2.jpg",
-            "title": "App Dashboard",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "title": "Consultants",
+            "description": "WordPress | Beaver Builder",
             "link": "/img/portfolio_2.webp"
         },
         {
             "id": 3,
             "src": "./img/portfolio_3.jpg",
-            "title": "Easy Rent",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "title": "Insurance Services",
+            "description": "WordPress | Beaver Builder",
             "link": "/img/portfolio_3.webp"
         },
         {
             "id": 4,
             "src": "./img/portfolio_4.jpg",
-            "title": "App Dashboard",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "title": "Automation Solutions",
+            "description": "WordPress | Beaver Builder",
             "link": "/img/portfolio_4.webp"
         },
         {
             "id": 5,
             "src": "./img/portfolio_5.jpg",
-            "title": "App Dashboard",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "title": "Real State Services",
+            "description": "WordPress | Beaver Builder",
             "link": "/img/portfolio_5.webp"
         },
         {
             "id": 6,
             "src": "./img/portfolio_6.jpg",
-            "title": "App Dashboard",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "title": "Pole Dancing",
+            "description": "WordPress | Beaver Builder",
             "link": "/img/portfolio_6.webp"
         },
         {
             "id": 7,
             "src": "./img/portfolio_7.jpg",
-            "title": "App Dashboard",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "title": "Property Care Services",
+            "description": "WordPress | Beaver Builder",
             "link": "/img/portfolio_7.webp"
         },
         {
             "id": 8,
             "src": "./img/portfolio_8.jpg",
-            "title": "App Dashboard",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "title": "Food Services",
+            "description": "WordPress | Beaver Builder",
             "link": "/img/portfolio_8.webp"
         },
         {
             "id": 9,
             "src": "./img/portfolio_9.jpg",
-            "title": "App Dashboard",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "title": "Insurance Solutions",
+            "description": "WordPress | Beaver Builder",
             "link": "/img/portfolio_9.webp"
         },
         {
             "id": 10,
             "src": "./img/portfolio_10.jpg",
-            "title": "App Dashboard",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "title": "Real State",
+            "description": "WordPress | Beaver Builder",
             "link": "/img/portfolio_10.webp"
         },
         {
             "id": 11,
             "src": "./img/portfolio_11.jpg",
-            "title": "App Dashboard",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "title": "Psychological Consultant",
+            "description": "WordPress | Beaver Builder",
             "link": "/img/portfolio_11.webp"
         },
         {
             "id": 12,
             "src": "./img/portfolio_12.jpg",
-            "title": "App Dashboard",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "title": "Business Consultants",
+            "description": "WordPress | Beaver Builder",
             "link": "/img/portfolio_12.webp"
-        }
-    ],
-    "testimonial": [
-        {
-            "id": 1,
-            "count": "5",
-            "src": "./img/avatar-image.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "author_name": "Dianne Russel",
-            "author_designation": "Starbucks"
-        },
-        {
-            "id": 2,
-            "count": "5",
-            "src": "./img/avatar-image-1.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "author_name": "Kristin Watson",
-            "author_designation": "Luis Vuitton"
-        },
-        {
-            "id": 3,
-            "count": "5",
-            "src": "./img/avatar-image-2.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "author_name": "Kathryn Murphy",
-            "author_designation": "McDonald's"
         }
     ]
 }

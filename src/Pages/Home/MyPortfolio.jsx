@@ -27,12 +27,12 @@ export default function MyPortfolio() {
                         <img src={item.link} alt="Placeholder" />
                     </div>
                     </a>
-                    {/* <div className="portfolio--section--card--content">
-                        <div>
+                    <div className="portfolio--section--card--content">
+                        {/* <div>
                             <h3 className="portfolio--section--title">{item.title}</h3>
                             <p className="text-md">{item.description}</p>
-                        </div>
-                        <p className="text-sm portfolio--link">
+                        </div> */}
+                        {/* <p className="text-sm portfolio--link">
                         {item.link}
                         <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -49,8 +49,8 @@ export default function MyPortfolio() {
                             stroke-linejoin="round"
                         />
                         </svg>
-                        </p>
-                    </div> */}
+                        </p> */}
+                    </div>
                 </div>
             ))}
         </div>
