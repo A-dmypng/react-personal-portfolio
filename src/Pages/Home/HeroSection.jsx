@@ -16,7 +16,7 @@ export default function HeroSection() {
                 <a href="mailto:admypung@gmail.com" className="btn btn-primary">Get In Touch</a>
             </div>
             <div className="hero--section--img">
-                <img src="./img/hero-image.webp" alt="Hero Section" />
+                <img src="./img/hero-image-1.png" alt="Hero Section" />
             </div>
         </section>
     )
