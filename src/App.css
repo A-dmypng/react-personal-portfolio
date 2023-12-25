@@ -24,11 +24,14 @@ text-decoration: none;
 :root {
   --primary: #07beb8;
   --heading-color: #282938;
-  --bg-shade: #f5fcff;
+  --bg-shade: #0b2545;
   --github: #e62872;
   --darkblue: #1c1e53;
   --black: #000000;
   --white: #ffffff;
+}
+.container {
+  max-width: 1300px;
 }
 .btn {
   font-family: "Roboto";
@@ -127,7 +130,7 @@ h3 {
 }
 /* Body 2 */
 .text-md {
-  color: var(--darkblue);
+  color: var(--white);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -235,8 +238,11 @@ color: var(--primary);
 .hero--section--content--box > button {
   margin-top: 20px;
 }
+.hero--sub-title {
+  color: var(--white);
+}
 .hero--section--title {
-  color: var(--heading-color);
+  color: var(--white);
   font-size: 75px;
   font-weight: 700;
   line-height: 90px;
@@ -248,7 +254,7 @@ color: var(--primary);
   color: var(--primary);
 }
 .hero--section--description {
-  color: var(--darkblue);
+  color: var(--white);
   font-size: 24px;
   font-weight: 400;
   line-height: 36px;
@@ -300,7 +306,7 @@ color: var(--primary);
   border-bottom: 4px solid var(--primary);
 }
 .skills--section--card:hover .skills--section--description {
-  color: var(--darkblue);
+  color: var(--white);
 }
 .skills--section--img {
   display: flex;
@@ -320,13 +326,13 @@ color: var(--primary);
   align-self: stretch;
 }
 .skills--section--title {
-  color: var(--heading-color);
+  color: var(--primary);
   font-size: 24px;
   font-weight: 700;
   line-height: 45px;
 }
-.skill--section--description {
-  color: var(--black);
+.skills--section--description {
+  color: var(--white);
   font-size: 21px;
   font-style: normal;
   font-weight: 400;
@@ -341,6 +347,13 @@ color: var(--primary);
   align-items: center;
   gap: 110px;
   grid-template-columns: repeat(2, 1fr);
+}
+.about--section--description {
+  color: var(--dark);
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
 }
 .about--section--img > img{
   width: 100%;
@@ -587,7 +600,7 @@ input[type="checkbox"] {
   align-items: center;
 }
 .footer--content {
-  color: var(--black);
+  color: var(--white);
   font-size: 18.667px;
   font-weight: 400;
   line-height: 28px;
@@ -789,6 +802,12 @@ input[type="checkbox"] {
 }
 }
 @media only screen and (max-width: 768px) {
+  .hero--section--content--box {
+    padding-bottom: 10px;
+  }
+  .hero--section--description {
+    padding-bottom: 10px;
+  }
   .contact--section {
     padding-top: 0px;
   }
