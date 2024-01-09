@@ -24,14 +24,14 @@ text-decoration: none;
 :root {
   --primary: #07beb8;
   --heading-color: #282938;
-  --bg-shade: #0b2545;
+  --bg-shade: #e0fbfc;
   --github: #e62872;
   --darkblue: #1c1e53;
   --black: #000000;
   --white: #ffffff;
 }
 .container {
-  max-width: 1300px;
+  max-width: 1000px;
 }
 .btn {
   font-family: "Roboto";
@@ -130,7 +130,7 @@ h3 {
 }
 /* Body 2 */
 .text-md {
-  color: var(--white);
+  color: var(--black);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -239,10 +239,10 @@ color: var(--primary);
   margin-top: 20px;
 }
 .hero--sub-title {
-  color: var(--white);
+  color: var(--black);
 }
 .hero--section--title {
-  color: var(--white);
+  color: var(--heading-color);
   font-size: 75px;
   font-weight: 700;
   line-height: 90px;
@@ -254,7 +254,7 @@ color: var(--primary);
   color: var(--primary);
 }
 .hero--section--description {
-  color: var(--white);
+  color: var(--black);
   font-size: 24px;
   font-weight: 400;
   line-height: 36px;
@@ -306,11 +306,11 @@ color: var(--primary);
   border-bottom: 4px solid var(--primary);
 }
 .skills--section--card:hover .skills--section--description {
-  color: var(--white);
+  color: var(--black);
 }
 .skills--section--img {
   display: flex;
-  padding-top: 10px;
+  padding-top: 10gitpx;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -332,7 +332,7 @@ color: var(--primary);
   line-height: 45px;
 }
 .skills--section--description {
-  color: var(--white);
+  color: var(--black);
   font-size: 21px;
   font-style: normal;
   font-weight: 400;
@@ -600,7 +600,7 @@ input[type="checkbox"] {
   align-items: center;
 }
 .footer--content {
-  color: var(--white);
+  color: var(--black);
   font-size: 18.667px;
   font-weight: 400;
   line-height: 28px;
