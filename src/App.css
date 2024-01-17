@@ -24,7 +24,7 @@ text-decoration: none;
 :root {
   --primary: #07beb8;
   --heading-color: #282938;
-  --bg-shade: #e0fbfc;
+  --bg-shade: #e0fbfc5e;
   --github: #e62872;
   --darkblue: #1c1e53;
   --black: #000000;
@@ -565,11 +565,12 @@ input[type="checkbox"] {
   align-items: center;
   align-self: stretch;
 }
+
 .footer--items > ul {
   list-style: none;
   display: flex;
-  align-items: flex-start;
-  gap: 42.667px;
+  align-items: center;
+  gap: 40px;
   text-decoration: none;
 }
 .footer--items ul > li > a {

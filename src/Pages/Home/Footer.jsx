@@ -31,7 +31,7 @@ function Footer() {
                 offset={-70}
                 duration={500}
                 to="mySkills"
-                className="text-md"
+                className="black"
               >
                 Skills
               </Link>
