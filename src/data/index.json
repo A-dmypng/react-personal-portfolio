@@ -22,87 +22,87 @@
     "portfolio": [
         {
             "id": 1,
-            "src": "./img/portfolio_1.jpg",
+            "src": "./img/portfolio1.jpg",
             "title": "Accounting Solutions",
             "description": "WordPress | Beaver Builder",
-            "link": "/img/portfolio_1.webp"
+            "link": "/img/portfolio1.jpg"
         },
         {
             "id": 2,
-            "src": "./img/portfolio_2.jpg",
+            "src": "./img/portfolio2.jpg",
             "title": "Consultants",
             "description": "WordPress | Beaver Builder",
-            "link": "/img/portfolio_2.webp"
+            "link": "/img/portfolio2.jpg"
         },
         {
             "id": 3,
-            "src": "./img/portfolio_3.jpg",
+            "src": "./img/portfolio3.jpg",
             "title": "Insurance Services",
             "description": "WordPress | Beaver Builder",
-            "link": "/img/portfolio_3.webp"
+            "link": "/img/portfolio3.jpg"
         },
         {
             "id": 4,
-            "src": "./img/portfolio_4.jpg",
+            "src": "./img/portfolio4.jpg",
             "title": "Automation Solutions",
             "description": "WordPress | Beaver Builder",
-            "link": "/img/portfolio_4.webp"
+            "link": "/img/portfolio4.jpg"
         },
         {
             "id": 5,
-            "src": "./img/portfolio_5.jpg",
+            "src": "./img/portfolio5.jpg",
             "title": "Real State Services",
             "description": "WordPress | Beaver Builder",
-            "link": "/img/portfolio_5.webp"
+            "link": "/img/portfolio5.jpg"
         },
         {
             "id": 6,
-            "src": "./img/portfolio_6.jpg",
+            "src": "./img/portfolio6.jpg",
             "title": "Pole Dancing",
             "description": "WordPress | Beaver Builder",
-            "link": "/img/portfolio_6.webp"
+            "link": "/img/portfolio6.jpg"
         },
         {
             "id": 7,
-            "src": "./img/portfolio_7.jpg",
+            "src": "./img/portfolio7.jpg",
             "title": "Property Care Services",
             "description": "WordPress | Beaver Builder",
-            "link": "/img/portfolio_7.webp"
+            "link": "/img/portfolio7.jpg"
         },
         {
             "id": 8,
-            "src": "./img/portfolio_8.jpg",
+            "src": "./img/portfolio8.jpg",
             "title": "Food Services",
             "description": "WordPress | Beaver Builder",
-            "link": "/img/portfolio_8.webp"
+            "link": "/img/portfolio8.jpg"
         },
         {
             "id": 9,
-            "src": "./img/portfolio_9.jpg",
+            "src": "./img/portfolio9.jpg",
             "title": "Insurance Solutions",
             "description": "WordPress | Beaver Builder",
-            "link": "/img/portfolio_9.webp"
+            "link": "/img/portfolio9.jpg"
         },
         {
             "id": 10,
-            "src": "./img/portfolio_10.jpg",
+            "src": "./img/portfolio10.jpg",
             "title": "Real State",
             "description": "WordPress | Beaver Builder",
-            "link": "/img/portfolio_10.webp"
+            "link": "/img/portfolio10.jpg"
         },
         {
             "id": 11,
-            "src": "./img/portfolio_11.jpg",
+            "src": "./img/portfolio11.jpg",
             "title": "Psychological Consultant",
             "description": "WordPress | Beaver Builder",
-            "link": "/img/portfolio_11.webp"
+            "link": "/img/portfolio11.jpg"
         },
         {
             "id": 12,
-            "src": "./img/portfolio_12.jpg",
+            "src": "./img/portfolio12.jpg",
             "title": "Business Consultants",
             "description": "WordPress | Beaver Builder",
-            "link": "/img/portfolio_12.webp"
+            "link": "/img/portfolio12.jpg"
         }
     ]
 }
