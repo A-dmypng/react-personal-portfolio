@@ -115,6 +115,7 @@ function Navbar() {
         duration={500}
         to="Contact"
         className="btn btn-outline-primary"
+        target="_blank"
       >
         Download CV
       </a>
