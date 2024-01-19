@@ -106,7 +106,7 @@ function Navbar() {
         </ul>
       </div>
       <a
-        href="/assets/Resume120723.pdf"
+        href="/assets/Ayman-CV.pdf"
         onClick={closeMenu}
         activeClass="navbar--active-content"
         spy={true}
