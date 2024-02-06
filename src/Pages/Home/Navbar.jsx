@@ -35,7 +35,7 @@ function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div className="logo-container">
-        <img className="logo" src="./img/logo-1.png" alt="Logoipsum" />
+        <img className="logo" src="./img/logo-final.png" alt="Logoipsum" />
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}

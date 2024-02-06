@@ -22,12 +22,13 @@ a {
 text-decoration: none;
 }
 :root {
-  --primary: #C77DFF;
-  --heading-color: #FFFFFF;
-  --bg-shade: #10002B;
-  --dark-violet: #3C096C;
+  --primary: #07beb8;
+  --heading-color: #282938;
+  --bg-shade: #e0fbfc5e;
+  --github: #e62872;
+  --darkblue: #1c1e53;
   --black: #000000;
-  --white: #F2F8FC;
+  --white: #ffffff;
 }
 .container {
   max-width: 1000px;
@@ -38,18 +39,16 @@ text-decoration: none;
   padding: 14px 32px;
   font-size: 16px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 24px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
-  border-radius: 30px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  -o-border-radius: 30px;
+  border-radius: 4px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
   transition: background-color 0.5s;
   -webkit-transtiotion: background-color 0.5s;
   -moz-transtiotion: background-color 0.5s;
@@ -59,26 +58,26 @@ text-decoration: none;
 
 .btn-outline-primary {
   color: var(--primary);
-  background-color: transparent;
-  border: 2px solid var(--primary);
+  background-color: var(--white);
+  border: 1px solid var(--primary);
 }
 .btn-outline-primary:hover {
-  color: var(--bg-shade);
+  color: var(--white);
   background-color: var(--primary);
 }
 .btn-primary {
-  color: var(--bg-shade);
+  color: var(--white);
   background-color: var(--primary);
-  border: 2px solid var(--primary);
+  border: 1px solid var(--primary);
 }
 .btn-primary:hover {
   color: var(--primary);
-  background-color: transparent;
+  background-color: var(--white);
 }
 .btn-behance {
-  color: var(--bg-shade);
+  color: var(--white);
   background-color: var(--primary);
-  border: 2px solid var(--primary);
+  border: 1px solid var(--primary);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -88,12 +87,12 @@ text-decoration: none;
 
 .btn-behance:hover {
 color: var(--primary);
-background-color: transparent;
+background-color: var(--white);
 }
 
 .btn-behance a {
   text-decoration: none;
-  color: var(--bg-shade);
+  color: #fff;
 }
 
 .btn-behance:hover a {
@@ -174,7 +173,7 @@ h3 {
   justify-content: space-between;
   align-items: center;
   padding: 15px 80px;
-  background: #3C096C;
+  background: var(--white);
   box-shadow: 0px 5px 80px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
@@ -200,10 +199,6 @@ align-items: center;
 
 .navbar--items ul > li > a {
   text-decoration: none;
-  text-transform: uppercase;
-}
-.navbar--items ul > li{
-  color: var(--white);
 }
 .navbar--items ul > li:hover  a {
 color: var(--primary);
@@ -244,8 +239,7 @@ color: var(--primary);
   margin-top: 20px;
 }
 .hero--sub-title {
-  color: var(--white);
-  font-size: 24px;
+  color: var(--black);
 }
 .hero--section--title {
   color: var(--heading-color);
@@ -260,7 +254,7 @@ color: var(--primary);
   color: var(--primary);
 }
 .hero--section--description {
-  color: var(--white);
+  color: var(--black);
   font-size: 24px;
   font-weight: 400;
   line-height: 36px;
@@ -282,7 +276,6 @@ color: var(--primary);
   justify-content: center;
   align-items: flex-start;
   gap: 100px;
-  background-color: var(--dark-violet);
 }
 .skills--section--heading {
   color: var(--heading-color);
@@ -312,9 +305,9 @@ color: var(--primary);
 .skills--section--card:hover {
   border-bottom: 4px solid var(--primary);
 }
-/* .skills--section--card:hover .skills--section--description {
+.skills--section--card:hover .skills--section--description {
   color: var(--black);
-} */
+}
 .skills--section--img {
   display: flex;
   padding-top: 10gitpx;
@@ -339,7 +332,7 @@ color: var(--primary);
   line-height: 45px;
 }
 .skills--section--description {
-  color: var(--white);
+  color: var(--black);
   font-size: 21px;
   font-style: normal;
   font-weight: 400;
@@ -349,15 +342,14 @@ color: var(--primary);
 
 /* Aboutt Us */
 .about--section {
-  background-color: var(--dark-violet);
   display: grid;
-  padding: 0px 80px 120px;
+  padding: 20px 80px;
   align-items: center;
   gap: 110px;
   grid-template-columns: repeat(2, 1fr);
 }
 .about--section--description {
-  color: var(--white);
+  color: var(--dark);
   font-size: 21px;
   font-style: normal;
   font-weight: 400;
@@ -371,7 +363,6 @@ color: var(--primary);
 
 /* My Portfolio Starts */
 .portfolio--section {
-  background-color: var(--bg-shade);
   display: flex;
   padding: 120px 80px;
   flex-direction: column;
@@ -564,7 +555,7 @@ input[type="checkbox"] {
   padding: 60px 80px;
   flex-direction: column;
   align-items: flex-start;
-  background: var(--dark-violet);
+  background: var(--bg-shade);
   align-items: center;
   align-self: stretch;
 }
@@ -585,8 +576,6 @@ input[type="checkbox"] {
 .footer--items ul > li > a {
   text-decoration: none;
   cursor: pointer;
-  text-transform: uppercase;
-  color: var(--white);
 }
 .footer--social--icon > ul {
   list-style: none;
@@ -604,7 +593,7 @@ input[type="checkbox"] {
   margin: 20px 0 20px;
   height: 1px;
   width: 100%;
-  background: rgba(40, 41, 56, 0.20);
+  background: rgba(40, 41, 56, 0.40);
 }
 .footer--content--container {
   display: flex;
@@ -612,8 +601,8 @@ input[type="checkbox"] {
   align-items: center;
 }
 .footer--content {
-  color: var(--white);
-  font-size: 16px;
+  color: var(--black);
+  font-size: 18.667px;
   font-weight: 400;
   line-height: 28px;
 }
@@ -705,8 +694,8 @@ input[type="checkbox"] {
   }
   .about--section {
     gap: 20px;
-    padding-top: 50;
-    padding-bottom: 50;
+    padding-top: 0;
+    padding-bottom: 0;
   }
   .testimonial--section--card {
     padding: 25px;
@@ -734,7 +723,7 @@ input[type="checkbox"] {
     align-items: center;
   }
   .divider {
-    margin: 0px;
+    margin: 20px;
   }
 }
 
@@ -755,7 +744,7 @@ input[type="checkbox"] {
   display: block;
   height: 0.188rem;
   width: 100%;
-  background-color: var(--white);
+  background-color: #000000;
   border-radius: 0.625rem;
   transition: all ease-in-out 0.2s;
 }
@@ -773,8 +762,8 @@ input[type="checkbox"] {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #3C096C;
-    top: -30rem;
+    background-color: rgba(255, 255, 255);
+    top: -20rem;
     left: 0;
     width: 100%;
     transition: all ease-in-out 0.4s;

@@ -6,7 +6,7 @@ function Footer() {
     <footer className="footer--container">
       <div className="footer--link--container">
         <div>
-          <img className="logo" src="./img/logo-1.png" alt="Logoipsum" />
+          <img className="logo" src="./img/logo-final.png" alt="Logoipsum" />
         </div>
         <div className="footer--items">
           <ul>
@@ -64,7 +64,7 @@ function Footer() {
             </li>
           </ul>
         </div>
-        {/* <div className="footer--social--icon">
+        <div className="footer--social--icon">
           <ul>
             <li>
               <a
@@ -97,7 +97,7 @@ function Footer() {
               </a>
             </li>
           </ul>
-        </div> */}
+        </div>
       </div>
       <hr className="divider" />
       <div className="footer--content--container">
