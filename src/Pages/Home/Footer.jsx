@@ -99,10 +99,10 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <hr className="divider" />
+      {/* <hr className="divider" />
       <div className="footer--content--container">
         <p className="footer--content">Copyright 2023</p>
-      </div>
+      </div> */}
     </footer>
   );
 }
