@@ -32,8 +32,8 @@ text-decoration: none;
   --heading-color: #282938;
   --bg-shade: #e0fbfc5e;
   --github: #e62872;
-  --darkblue: #1c1e53;
-  --black: #000000;
+  --dark: #444444;
+  --black: #444444;
   --white: #ffffff;
 }
 
@@ -126,7 +126,7 @@ h3 {
 /* Paragraphs text large medium small */
 /* Body 1 */
 .text-lg {
-  color: var(--darkblue);
+  color: var(--dark);
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
