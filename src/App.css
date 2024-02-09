@@ -62,7 +62,7 @@ text-decoration: none;
 
 .btn-outline-primary {
   color: var(--primary);
-  background-color: var(--white);
+  background-color: transparent;
   border: 1px solid var(--primary);
 }
 .btn-outline-primary:hover {
@@ -174,12 +174,15 @@ h3 {
 /* NavBar Style Start */
 .navbar {
   padding: 15px 40px;
-  background: var(--white);
-  box-shadow: 0px 5px 80px 0 rgba(0, 0, 0, 0.1);
+  background: transparent;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
+}
+.navbar-scroll-bg {
+  background: var(--white);
+  box-shadow: 0px 5px 80px 0 rgba(0, 0, 0, 0.1);
 }
 .navbar-container {
   display: flex;

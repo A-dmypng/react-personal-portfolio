@@ -32,8 +32,20 @@ function Navbar() {
     }
   }, []);
 
+  //Change Nav color when scroll
+  const [color, setColor] = useState(false)
+  const changeColor = () => {
+    if (window.scrollY >= 90) {
+      setColor(true)
+    }else {
+      setColor(false)
+    }
+  }
+
+  window.addEventListener('scroll', changeColor)
+
   return (
-    <nav className="navbar">
+    <nav className={color ? 'navbar navbar-scroll-bg' : 'navbar'}>
         <div className="container">
       <div className={`navbar-container ${navActive ? "active" : ""} `}>
         <div className="logo-container">
