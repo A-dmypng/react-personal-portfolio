@@ -1,6 +1,8 @@
 export default function AboutMe() {
     return (
-        <section id="AboutMe" className="about--section">
+        <section className="about">
+            <div className="container">
+        <div id="AboutMe" className="about--section">
             <div className="about--section--img">
                 <img src="./img/laptop-image.png" alt="About Me" />
             </div>
@@ -11,6 +13,8 @@ export default function AboutMe() {
                     <p className="about--section--description">Hello! I'm Ayman, a passionate and detail-oriented web developer dedicated to crafting clean, functional, and visually appealing websites. With a background in Web Design and development, I bring a unique blend of technical skills and creative thinking to every project.</p>
                 </div>
             </div>
+        </div>
+        </div>
         </section>
     )
 }

@@ -3,10 +3,12 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="footer--container">
+    <footer className="footer">
+      <div className="container">
+    <div className="footer--container">
       <div className="footer--link--container">
         <div>
-          <img className="logo" src="./img/logo-final.png" alt="Logoipsum" />
+          <img className="logo" src="./img/portfolio-logo.png" alt="Logoipsum" />
         </div>
         <div className="footer--items">
           <ul>
@@ -103,6 +105,8 @@ function Footer() {
       <div className="footer--content--container">
         <p className="footer--content">Copyright 2023</p>
       </div> */}
+    </div>
+    </div>
     </footer>
   );
 }

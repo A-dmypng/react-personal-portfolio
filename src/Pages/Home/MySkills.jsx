@@ -2,7 +2,9 @@ import data from "../../data/index.json";
 
 export default function MySKills() {
     return(
-        <section className="skills--section" id="mySkills">
+        <section className="skills">
+            <div className="container">
+        <div className="skills--section" id="mySkills">
             <div className="portfolio--container">
                 <p className="section--title">My Skills</p>
                 <h2 className="skills--section--heading">My Expertise</h2>
@@ -20,6 +22,8 @@ export default function MySKills() {
                     </div>
                 ))}
             </div>
+        </div>
+        </div>
         </section>
     )
 }       
