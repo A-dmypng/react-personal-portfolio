@@ -8,7 +8,7 @@ function Footer() {
     <div className="footer--container">
       <div className="footer--link--container">
         <div>
-          <img className="logo" src="./img/portfolio-logo.png" alt="Logoipsum" />
+          <img className="logo" src="./img/logo-white.png" alt="Logoipsum" />
         </div>
         <div className="footer--items">
           <ul>
