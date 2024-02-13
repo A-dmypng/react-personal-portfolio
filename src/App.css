@@ -186,10 +186,7 @@ h3 {
   left: 0;
   right: 0;
 }
-.navbar-scroll-bg {
-  background: var(--bg-shade);
-  box-shadow: 0px 5px 80px 0 rgba(0, 0, 0, 0.1);
-}
+
 .navbar-container {
   display: flex;
   justify-content: space-between;
@@ -209,7 +206,7 @@ align-items: center;
 }
 
 .logo {
-  width: 200px;
+  width: 160px;
 }
 .navbar--items ul > li > a {
   color: var(--white);
@@ -231,6 +228,25 @@ color: var(--primary);
   color: var(--primary);
 }
 
+/* Navbar Scroll Styles */
+.navbar-scroll-bg {
+  background: var(--white);
+  box-shadow: 0px 5px 80px 0 rgba(0, 0, 0, 0.1);
+  transition: background-color 500ms ease;
+}
+.navbar-scroll-bg .navbar--items ul > li > a {
+  color: var(--bg-shade);
+}
+.navbar-scroll-bg .navbar--items ul > li:hover  a {
+  color: var(--primary);
+  }
+.navbar-scroll-bg .btn-outline-primary {
+  color: var(--primary);
+}
+.navbar-scroll-bg .btn-outline-primary:hover {
+  color: var(--white);
+  background-color: var(--primary);
+}
 /* Hero Section Style */
 .hero {
   /* height: 70vh; */
@@ -667,7 +683,7 @@ color: var(--primary);
   flex-direction: column;
   justify-content: space-around;
   position: absolute;
-  top: 25px;
+  top: 20px;
   right: 25px;
 }
 
@@ -679,14 +695,13 @@ color: var(--primary);
   border-radius: 0.625rem;
   transition: all ease-in-out 0.2s;
 }
-
+.navbar-scroll-bg .nav__hamburger__line {
+  background-color: var(--bg-shade);
+}
 @media screen and (max-width: 1200px) {
   .nav__hamburger {
     display: flex;
     z-index: 200;
-  }
-  .navbar--items {
-    display: flex;
   }
   .navbar--items {
     position: absolute;
@@ -698,6 +713,9 @@ color: var(--primary);
     left: 0;
     width: 100%;
     transition: all ease-in-out 0.4s;
+  }
+  .navbar-scroll-bg .navbar--items {
+    background-color: var(--white);
   }
   .navbar--items ul {
     flex-direction: column;
@@ -739,7 +757,7 @@ color: var(--primary);
 }
 @media only screen and (max-width: 768px) {
   .logo {
-    width: 180px;
+    width: 150px;
   }
   .navbar--items {
     z-index: 100;
@@ -771,7 +789,9 @@ color: var(--primary);
   }
 }
 @media only screen and (max-width: 480px) {
-
+ .logo {
+  width: 140px;
+ }
   .navbar {
       padding: 15px 20px;
   }
@@ -801,7 +821,7 @@ color: var(--primary);
 }
 .skills,
 .about {
-  padding: 30px 0px 0px;
+  padding: 30px 20px 0px;
 }
 .portfolio {
   padding: 30px 20px 50px;
